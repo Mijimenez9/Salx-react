@@ -1,0 +1,13 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb; /* Color azul más oscuro para el hover */
+}
